@@ -1,0 +1,38 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700&display=swap');
+
+*{
+    box-sizing: border-box; 
+font-family:'Oswald', sans-serif; 
+font-weight: 400;
+font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+#container{
+    display: flex; 
+    flex-direction: column;
+    
+}
+.header {
+padding: .5rem;
+}
+.header h1{
+    font-size: 2em
+}
+.header h2{
+
+}
+.menu-header{
+    display: flex;
+    padding: 1.5rem 0;
+   justify-content: space-around;
+}
+.footer{
+   
+}
+.article{
+ 
+}
